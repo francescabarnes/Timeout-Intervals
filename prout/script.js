@@ -2,19 +2,7 @@
 
 //Using setInterval display the word prout one character at a time (one letter per second).
 //Once the word is written on the screen clear the interval.
-/*
-let i = 0;
-function typeWriter() {
-  if (i < "prout".length) {
-    document.getElementById("demo").innerHTML += "prout"[i];
-    i++;
-    if (i === 5) {
-      clearInterval(intervalId);
-    }
-  }
-}
-let intervalId = setInterval(typeWriter, 1000);
-*/
+
 let i = 0;
 let word = "prout . . . ";
 
